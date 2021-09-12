@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F126F0324C6EB1B003016E6 /* NatSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F126F0224C6EB1B003016E6 /* NatSciViewController.swift */; };
+		3F1C928524FBE1B000C05484 /* CEngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C928424FBE1B000C05484 /* CEngineeringViewController.swift */; };
+		3F1C928724FBE1BD00C05484 /* CHumanitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C928624FBE1BD00C05484 /* CHumanitiesViewController.swift */; };
+		3F1C928924FBE1CA00C05484 /* CNatSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C928824FBE1CA00C05484 /* CNatSciViewController.swift */; };
+		3F1C928B24FBE1D800C05484 /* CSocSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C928A24FBE1D800C05484 /* CSocSciViewController.swift */; };
+		3F24EE4924F4027800FAB0B9 /* WashUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F24EE4824F4027800FAB0B9 /* WashUViewController.swift */; };
+		3F297DEB24BD06840020475B /* OkullarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F297DEA24BD06840020475B /* OkullarViewController.swift */; };
+		3F390B8624F3FCE100C2ED0A /* UCLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F390B8524F3FCE100C2ED0A /* UCLAViewController.swift */; };
+		3F390B8824F3FFA300C2ED0A /* CornellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F390B8724F3FFA300C2ED0A /* CornellViewController.swift */; };
+		3F3B4DB224E7FD4E007D4237 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B4DB124E7FD4E007D4237 /* loginViewController.swift */; };
+		3F5CB32224FBD70800FEEAC3 /* EUEngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CB32124FBD70800FEEAC3 /* EUEngineeringViewController.swift */; };
+		3F5CB32424FBD72700FEEAC3 /* EUHumanitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CB32324FBD72700FEEAC3 /* EUHumanitiesViewController.swift */; };
+		3F5CB32624FBD73500FEEAC3 /* EUNatSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CB32524FBD73500FEEAC3 /* EUNatSciViewController.swift */; };
+		3F5CB32824FBD74100FEEAC3 /* EUSocSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CB32724FBD74100FEEAC3 /* EUSocSciViewController.swift */; };
+		3F7091AB24AE09500014A5A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7091AA24AE09500014A5A3 /* AppDelegate.swift */; };
+		3F7091AD24AE09500014A5A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7091AC24AE09500014A5A3 /* SceneDelegate.swift */; };
+		3F7091AF24AE09500014A5A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7091AE24AE09500014A5A3 /* ViewController.swift */; };
+		3F7091B224AE09500014A5A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7091B024AE09500014A5A3 /* Main.storyboard */; };
+		3F7091B424AE09520014A5A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7091B324AE09520014A5A3 /* Assets.xcassets */; };
+		3F7091B724AE09520014A5A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7091B524AE09520014A5A3 /* LaunchScreen.storyboard */; };
+		3F77314124F3F9D900E38367 /* UCDavisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77314024F3F9D900E38367 /* UCDavisViewController.swift */; };
+		3F8057C124C6E6A300FF2457 /* HumanitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8057C024C6E6A300FF2457 /* HumanitiesViewController.swift */; };
+		3F958BA324F31CFF00D48AF5 /* BostonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F958BA224F31CFF00D48AF5 /* BostonViewController.swift */; };
+		3F97146D24C8ED8E007BF69C /* HarvardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97146C24C8ED8E007BF69C /* HarvardViewController.swift */; };
+		3F97147124C8EDF1007BF69C /* YaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147024C8EDF1007BF69C /* YaleViewController.swift */; };
+		3F97147324C8EE08007BF69C /* PrincetonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147224C8EE08007BF69C /* PrincetonViewController.swift */; };
+		3F97147524C8EE26007BF69C /* UChicagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147424C8EE26007BF69C /* UChicagoViewController.swift */; };
+		3F97147724C8EE3E007BF69C /* StanfordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147624C8EE3E007BF69C /* StanfordViewController.swift */; };
+		3F97147924C8EE5D007BF69C /* TilburgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147824C8EE5D007BF69C /* TilburgViewController.swift */; };
+		3F97147B24C8EECA007BF69C /* TorontoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147A24C8EECA007BF69C /* TorontoViewController.swift */; };
+		3F97147D24C8EFA5007BF69C /* BritishColumbiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147C24C8EFA5007BF69C /* BritishColumbiaViewController.swift */; };
+		3F97147F24C8EFC3007BF69C /* McGillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97147E24C8EFC3007BF69C /* McGillViewController.swift */; };
+		3F97148124C8EFDE007BF69C /* WaterlooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97148024C8EFDE007BF69C /* WaterlooViewController.swift */; };
+		3F97148324C8F091007BF69C /* OxfordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97148224C8F091007BF69C /* OxfordViewController.swift */; };
+		3F97148524C8F0B8007BF69C /* CambridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97148424C8F0B8007BF69C /* CambridgeViewController.swift */; };
+		3F97148724C8F0C8007BF69C /* UCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97148624C8F0C8007BF69C /* UCLViewController.swift */; };
+		3F97148924C8F0D9007BF69C /* ImperialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97148824C8F0D9007BF69C /* ImperialViewController.swift */; };
+		3F9AD29624F7FC1A00A23A12 /* EngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9AD29524F7FC1A00A23A12 /* EngineeringViewController.swift */; };
+		3F9AD29824F7FC3300A23A12 /* Humanities2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9AD29724F7FC3300A23A12 /* Humanities2ViewController.swift */; };
+		3F9AD29A24F7FC4700A23A12 /* NatSci2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9AD29924F7FC4700A23A12 /* NatSci2ViewController.swift */; };
+		3F9AD29C24F7FC5700A23A12 /* SocSci2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9AD29B24F7FC5700A23A12 /* SocSci2ViewController.swift */; };
+		3FAB659C24FBB1A400492E27 /* UKEngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB659B24FBB1A400492E27 /* UKEngineeringViewController.swift */; };
+		3FAB659E24FBB1BF00492E27 /* UKEngineering2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB659D24FBB1BF00492E27 /* UKEngineering2ViewController.swift */; };
+		3FAB65A024FBB1CD00492E27 /* UKHumanitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB659F24FBB1CD00492E27 /* UKHumanitiesViewController.swift */; };
+		3FAB65A224FBB1DE00492E27 /* UKHumanities2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB65A124FBB1DE00492E27 /* UKHumanities2ViewController.swift */; };
+		3FAB65A424FBB1EF00492E27 /* UKNatSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB65A324FBB1EF00492E27 /* UKNatSciViewController.swift */; };
+		3FAB65A624FBB1FA00492E27 /* UKNatSci2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB65A524FBB1FA00492E27 /* UKNatSci2ViewController.swift */; };
+		3FAB65A824FBB20600492E27 /* UKSocSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB65A724FBB20600492E27 /* UKSocSciViewController.swift */; };
+		3FAB65AA24FBB21200492E27 /* UKSocSci2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAB65A924FBB21100492E27 /* UKSocSci2ViewController.swift */; };
+		3FB1454E24E8159A00C27D3E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1454D24E8159A00C27D3E /* Utilities.swift */; };
+		3FC26AA124C790DF00593974 /* SocSciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC26AA024C790DF00593974 /* SocSciViewController.swift */; };
+		3FC26AA324C794BD00593974 /* MITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC26AA224C794BD00593974 /* MITViewController.swift */; };
+		3FC4D54624ED780A0054552E /* ETHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54524ED780A0054552E /* ETHViewController.swift */; };
+		3FC4D54824ED783C0054552E /* EPFLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54724ED783C0054552E /* EPFLViewController.swift */; };
+		3FC4D54A24ED78650054552E /* DelftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54924ED78650054552E /* DelftViewController.swift */; };
+		3FC4D54C24ED78790054552E /* MunichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54B24ED78790054552E /* MunichViewController.swift */; };
+		3FC4D54E24ED78890054552E /* LudwigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54D24ED78890054552E /* LudwigViewController.swift */; };
+		3FC4D55024ED789B0054552E /* AmsterdamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D54F24ED789B0054552E /* AmsterdamViewController.swift */; };
+		3FC4D55224ED78AB0054552E /* ZurichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55124ED78AB0054552E /* ZurichViewController.swift */; };
+		3FC4D55424ED78BD0054552E /* KUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55324ED78BD0054552E /* KUViewController.swift */; };
+		3FC4D55624ED78D40054552E /* EdinburghViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55524ED78D40054552E /* EdinburghViewController.swift */; };
+		3FC4D55824ED78E40054552E /* ManchesterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55724ED78E40054552E /* ManchesterViewController.swift */; };
+		3FC4D55A24ED78F40054552E /* KingsCollegeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55924ED78F40054552E /* KingsCollegeViewController.swift */; };
+		3FC4D55C24ED79040054552E /* LSEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55B24ED79040054552E /* LSEViewController.swift */; };
+		3FC4D55E24ED79150054552E /* WarwickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55D24ED79150054552E /* WarwickViewController.swift */; };
+		3FC4D56024ED792E0054552E /* AlbertaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D55F24ED792E0054552E /* AlbertaViewController.swift */; };
+		3FC4D56224ED793D0054552E /* MontrealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D56124ED793D0054552E /* MontrealViewController.swift */; };
+		3FC4D56424ED794A0054552E /* McMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4D56324ED794A0054552E /* McMasterViewController.swift */; };
+		3FC79BA124B4A0F200B00412 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC79BA024B4A0F200B00412 /* SecondViewController.swift */; };
+		3FC79BA324B4A5F800B00412 /* liseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC79BA224B4A5F800B00412 /* liseViewController.swift */; };
+		3FD2B36224F676E00001D2E4 /* BerkeleyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36124F676E00001D2E4 /* BerkeleyViewController.swift */; };
+		3FD2B36424F676FD0001D2E4 /* ColumbiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36324F676FD0001D2E4 /* ColumbiaViewController.swift */; };
+		3FD2B36624F677110001D2E4 /* TexasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36524F677110001D2E4 /* TexasViewController.swift */; };
+		3FD2B36824F677220001D2E4 /* NorthwesternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36724F677220001D2E4 /* NorthwesternViewController.swift */; };
+		3FD2B36A24F677330001D2E4 /* SouthernCaliforniaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36924F677330001D2E4 /* SouthernCaliforniaViewController.swift */; };
+		3FD2B36C24F677400001D2E4 /* BrownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36B24F677400001D2E4 /* BrownViewController.swift */; };
+		3FD2B36E24F6774F0001D2E4 /* PennsylvaniaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36D24F6774F0001D2E4 /* PennsylvaniaViewController.swift */; };
+		3FD2B37024F6775C0001D2E4 /* GeorgeTownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B36F24F6775C0001D2E4 /* GeorgeTownViewController.swift */; };
+		3FD2B37224F6776B0001D2E4 /* JohnsHopkinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37124F6776B0001D2E4 /* JohnsHopkinsViewController.swift */; };
+		3FD2B37424F677790001D2E4 /* WisconsinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37324F677790001D2E4 /* WisconsinViewController.swift */; };
+		3FD2B37624F677860001D2E4 /* DukeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37524F677860001D2E4 /* DukeViewController.swift */; };
+		3FD2B37824F677940001D2E4 /* GeorgiaTechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37724F677940001D2E4 /* GeorgiaTechViewController.swift */; };
+		3FD2B37A24F6779F0001D2E4 /* CaltechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37924F6779F0001D2E4 /* CaltechViewController.swift */; };
+		3FD2B37C24F677AD0001D2E4 /* NYUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37B24F677AD0001D2E4 /* NYUViewController.swift */; };
+		3FD2B37E24F677B90001D2E4 /* MichiganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37D24F677B90001D2E4 /* MichiganViewController.swift */; };
+		3FD2B38024F677C60001D2E4 /* IllinoisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B37F24F677C60001D2E4 /* IllinoisViewController.swift */; };
+		3FD2B38224F677D70001D2E4 /* CarnegieMellonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38124F677D70001D2E4 /* CarnegieMellonViewController.swift */; };
+		3FD2B38424F677E40001D2E4 /* PurdueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38324F677E40001D2E4 /* PurdueViewController.swift */; };
+		3FD2B38624F677F30001D2E4 /* SanDiegoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38524F677F30001D2E4 /* SanDiegoViewController.swift */; };
+		3FD2B38824F678010001D2E4 /* PennStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38724F678010001D2E4 /* PennStateViewController.swift */; };
+		3FD2B38A24F678190001D2E4 /* WashingtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38924F678190001D2E4 /* WashingtonViewController.swift */; };
+		3FD2B38C24F6782B0001D2E4 /* NorthCarolinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38B24F6782B0001D2E4 /* NorthCarolinaViewController.swift */; };
+		3FD2B38E24F67A350001D2E4 /* Waterloo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD2B38D24F67A350001D2E4 /* Waterloo2ViewController.swift */; };
+		3FF1EDB824E463ED0067B65E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FF1EDB724E463ED0067B65E /* GoogleService-Info.plist */; };
+		B2293892E3A583EC65468867 /* Pods_uniPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A030DC0DCBA40B89223CB3CB /* Pods_uniPath.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		134B8EF7504BD6E4C4A324D4 /* Pods-uniPath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniPath.release.xcconfig"; path = "Target Support Files/Pods-uniPath/Pods-uniPath.release.xcconfig"; sourceTree = "<group>"; };
+		3F126F0224C6EB1B003016E6 /* NatSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatSciViewController.swift; sourceTree = "<group>"; };
+		3F1C928424FBE1B000C05484 /* CEngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEngineeringViewController.swift; sourceTree = "<group>"; };
+		3F1C928624FBE1BD00C05484 /* CHumanitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHumanitiesViewController.swift; sourceTree = "<group>"; };
+		3F1C928824FBE1CA00C05484 /* CNatSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CNatSciViewController.swift; sourceTree = "<group>"; };
+		3F1C928A24FBE1D800C05484 /* CSocSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSocSciViewController.swift; sourceTree = "<group>"; };
+		3F24EE4824F4027800FAB0B9 /* WashUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashUViewController.swift; sourceTree = "<group>"; };
+		3F297DEA24BD06840020475B /* OkullarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkullarViewController.swift; sourceTree = "<group>"; };
+		3F390B8524F3FCE100C2ED0A /* UCLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCLAViewController.swift; sourceTree = "<group>"; };
+		3F390B8724F3FFA300C2ED0A /* CornellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornellViewController.swift; sourceTree = "<group>"; };
+		3F3B4DB124E7FD4E007D4237 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		3F5CB32124FBD70800FEEAC3 /* EUEngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUEngineeringViewController.swift; sourceTree = "<group>"; };
+		3F5CB32324FBD72700FEEAC3 /* EUHumanitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUHumanitiesViewController.swift; sourceTree = "<group>"; };
+		3F5CB32524FBD73500FEEAC3 /* EUNatSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUNatSciViewController.swift; sourceTree = "<group>"; };
+		3F5CB32724FBD74100FEEAC3 /* EUSocSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUSocSciViewController.swift; sourceTree = "<group>"; };
+		3F7091A724AE09500014A5A3 /* uniPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7091AA24AE09500014A5A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F7091AC24AE09500014A5A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F7091AE24AE09500014A5A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F7091B124AE09500014A5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F7091B324AE09520014A5A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F7091B624AE09520014A5A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F7091B824AE09520014A5A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F77314024F3F9D900E38367 /* UCDavisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCDavisViewController.swift; sourceTree = "<group>"; };
+		3F8057C024C6E6A300FF2457 /* HumanitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanitiesViewController.swift; sourceTree = "<group>"; };
+		3F958BA224F31CFF00D48AF5 /* BostonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BostonViewController.swift; sourceTree = "<group>"; };
+		3F97146C24C8ED8E007BF69C /* HarvardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarvardViewController.swift; sourceTree = "<group>"; };
+		3F97147024C8EDF1007BF69C /* YaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaleViewController.swift; sourceTree = "<group>"; };
+		3F97147224C8EE08007BF69C /* PrincetonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincetonViewController.swift; sourceTree = "<group>"; };
+		3F97147424C8EE26007BF69C /* UChicagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChicagoViewController.swift; sourceTree = "<group>"; };
+		3F97147624C8EE3E007BF69C /* StanfordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordViewController.swift; sourceTree = "<group>"; };
+		3F97147824C8EE5D007BF69C /* TilburgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TilburgViewController.swift; sourceTree = "<group>"; };
+		3F97147A24C8EECA007BF69C /* TorontoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoViewController.swift; sourceTree = "<group>"; };
+		3F97147C24C8EFA5007BF69C /* BritishColumbiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BritishColumbiaViewController.swift; sourceTree = "<group>"; };
+		3F97147E24C8EFC3007BF69C /* McGillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McGillViewController.swift; sourceTree = "<group>"; };
+		3F97148024C8EFDE007BF69C /* WaterlooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterlooViewController.swift; sourceTree = "<group>"; };
+		3F97148224C8F091007BF69C /* OxfordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OxfordViewController.swift; sourceTree = "<group>"; };
+		3F97148424C8F0B8007BF69C /* CambridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CambridgeViewController.swift; sourceTree = "<group>"; };
+		3F97148624C8F0C8007BF69C /* UCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCLViewController.swift; sourceTree = "<group>"; };
+		3F97148824C8F0D9007BF69C /* ImperialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImperialViewController.swift; sourceTree = "<group>"; };
+		3F9AD29524F7FC1A00A23A12 /* EngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineeringViewController.swift; sourceTree = "<group>"; };
+		3F9AD29724F7FC3300A23A12 /* Humanities2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Humanities2ViewController.swift; sourceTree = "<group>"; };
+		3F9AD29924F7FC4700A23A12 /* NatSci2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatSci2ViewController.swift; sourceTree = "<group>"; };
+		3F9AD29B24F7FC5700A23A12 /* SocSci2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocSci2ViewController.swift; sourceTree = "<group>"; };
+		3FAB659B24FBB1A400492E27 /* UKEngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKEngineeringViewController.swift; sourceTree = "<group>"; };
+		3FAB659D24FBB1BF00492E27 /* UKEngineering2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKEngineering2ViewController.swift; sourceTree = "<group>"; };
+		3FAB659F24FBB1CD00492E27 /* UKHumanitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKHumanitiesViewController.swift; sourceTree = "<group>"; };
+		3FAB65A124FBB1DE00492E27 /* UKHumanities2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKHumanities2ViewController.swift; sourceTree = "<group>"; };
+		3FAB65A324FBB1EF00492E27 /* UKNatSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKNatSciViewController.swift; sourceTree = "<group>"; };
+		3FAB65A524FBB1FA00492E27 /* UKNatSci2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKNatSci2ViewController.swift; sourceTree = "<group>"; };
+		3FAB65A724FBB20600492E27 /* UKSocSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKSocSciViewController.swift; sourceTree = "<group>"; };
+		3FAB65A924FBB21100492E27 /* UKSocSci2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKSocSci2ViewController.swift; sourceTree = "<group>"; };
+		3FB1454D24E8159A00C27D3E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3FC26AA024C790DF00593974 /* SocSciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocSciViewController.swift; sourceTree = "<group>"; };
+		3FC26AA224C794BD00593974 /* MITViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MITViewController.swift; sourceTree = "<group>"; };
+		3FC4D54524ED780A0054552E /* ETHViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ETHViewController.swift; sourceTree = "<group>"; };
+		3FC4D54724ED783C0054552E /* EPFLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EPFLViewController.swift; sourceTree = "<group>"; };
+		3FC4D54924ED78650054552E /* DelftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelftViewController.swift; sourceTree = "<group>"; };
+		3FC4D54B24ED78790054552E /* MunichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunichViewController.swift; sourceTree = "<group>"; };
+		3FC4D54D24ED78890054552E /* LudwigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudwigViewController.swift; sourceTree = "<group>"; };
+		3FC4D54F24ED789B0054552E /* AmsterdamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmsterdamViewController.swift; sourceTree = "<group>"; };
+		3FC4D55124ED78AB0054552E /* ZurichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZurichViewController.swift; sourceTree = "<group>"; };
+		3FC4D55324ED78BD0054552E /* KUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUViewController.swift; sourceTree = "<group>"; };
+		3FC4D55524ED78D40054552E /* EdinburghViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdinburghViewController.swift; sourceTree = "<group>"; };
+		3FC4D55724ED78E40054552E /* ManchesterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManchesterViewController.swift; sourceTree = "<group>"; };
+		3FC4D55924ED78F40054552E /* KingsCollegeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingsCollegeViewController.swift; sourceTree = "<group>"; };
+		3FC4D55B24ED79040054552E /* LSEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSEViewController.swift; sourceTree = "<group>"; };
+		3FC4D55D24ED79150054552E /* WarwickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarwickViewController.swift; sourceTree = "<group>"; };
+		3FC4D55F24ED792E0054552E /* AlbertaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertaViewController.swift; sourceTree = "<group>"; };
+		3FC4D56124ED793D0054552E /* MontrealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontrealViewController.swift; sourceTree = "<group>"; };
+		3FC4D56324ED794A0054552E /* McMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McMasterViewController.swift; sourceTree = "<group>"; };
+		3FC79BA024B4A0F200B00412 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FC79BA224B4A5F800B00412 /* liseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liseViewController.swift; sourceTree = "<group>"; };
+		3FD2B36124F676E00001D2E4 /* BerkeleyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerkeleyViewController.swift; sourceTree = "<group>"; };
+		3FD2B36324F676FD0001D2E4 /* ColumbiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumbiaViewController.swift; sourceTree = "<group>"; };
+		3FD2B36524F677110001D2E4 /* TexasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexasViewController.swift; sourceTree = "<group>"; };
+		3FD2B36724F677220001D2E4 /* NorthwesternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthwesternViewController.swift; sourceTree = "<group>"; };
+		3FD2B36924F677330001D2E4 /* SouthernCaliforniaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthernCaliforniaViewController.swift; sourceTree = "<group>"; };
+		3FD2B36B24F677400001D2E4 /* BrownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrownViewController.swift; sourceTree = "<group>"; };
+		3FD2B36D24F6774F0001D2E4 /* PennsylvaniaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennsylvaniaViewController.swift; sourceTree = "<group>"; };
+		3FD2B36F24F6775C0001D2E4 /* GeorgeTownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeorgeTownViewController.swift; sourceTree = "<group>"; };
+		3FD2B37124F6776B0001D2E4 /* JohnsHopkinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnsHopkinsViewController.swift; sourceTree = "<group>"; };
+		3FD2B37324F677790001D2E4 /* WisconsinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisconsinViewController.swift; sourceTree = "<group>"; };
+		3FD2B37524F677860001D2E4 /* DukeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DukeViewController.swift; sourceTree = "<group>"; };
+		3FD2B37724F677940001D2E4 /* GeorgiaTechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeorgiaTechViewController.swift; sourceTree = "<group>"; };
+		3FD2B37924F6779F0001D2E4 /* CaltechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaltechViewController.swift; sourceTree = "<group>"; };
+		3FD2B37B24F677AD0001D2E4 /* NYUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYUViewController.swift; sourceTree = "<group>"; };
+		3FD2B37D24F677B90001D2E4 /* MichiganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganViewController.swift; sourceTree = "<group>"; };
+		3FD2B37F24F677C60001D2E4 /* IllinoisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllinoisViewController.swift; sourceTree = "<group>"; };
+		3FD2B38124F677D70001D2E4 /* CarnegieMellonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnegieMellonViewController.swift; sourceTree = "<group>"; };
+		3FD2B38324F677E40001D2E4 /* PurdueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurdueViewController.swift; sourceTree = "<group>"; };
+		3FD2B38524F677F30001D2E4 /* SanDiegoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanDiegoViewController.swift; sourceTree = "<group>"; };
+		3FD2B38724F678010001D2E4 /* PennStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennStateViewController.swift; sourceTree = "<group>"; };
+		3FD2B38924F678190001D2E4 /* WashingtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WashingtonViewController.swift; sourceTree = "<group>"; };
+		3FD2B38B24F6782B0001D2E4 /* NorthCarolinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthCarolinaViewController.swift; sourceTree = "<group>"; };
+		3FD2B38D24F67A350001D2E4 /* Waterloo2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waterloo2ViewController.swift; sourceTree = "<group>"; };
+		3FF1EDB724E463ED0067B65E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A83A757847A52D7004DE52C /* Pods-uniPath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniPath.debug.xcconfig"; path = "Target Support Files/Pods-uniPath/Pods-uniPath.debug.xcconfig"; sourceTree = "<group>"; };
+		A030DC0DCBA40B89223CB3CB /* Pods_uniPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uniPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7091A424AE09500014A5A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2293892E3A583EC65468867 /* Pods_uniPath.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F70919E24AE09500014A5A3 = {
+			isa = PBXGroup;
+			children = (
+				3F7091A924AE09500014A5A3 /* uniPath */,
+				3F7091A824AE09500014A5A3 /* Products */,
+				7C8E20E77F00E32010EAB0D0 /* Pods */,
+				578F94C6186549161043A821 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7091A824AE09500014A5A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7091A724AE09500014A5A3 /* uniPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7091A924AE09500014A5A3 /* uniPath */ = {
+			isa = PBXGroup;
+			children = (
+				3F7091AA24AE09500014A5A3 /* AppDelegate.swift */,
+				3F7091AC24AE09500014A5A3 /* SceneDelegate.swift */,
+				3F7091AE24AE09500014A5A3 /* ViewController.swift */,
+				3F3B4DB124E7FD4E007D4237 /* loginViewController.swift */,
+				3FB1454D24E8159A00C27D3E /* Utilities.swift */,
+				3F7091B024AE09500014A5A3 /* Main.storyboard */,
+				3F7091B324AE09520014A5A3 /* Assets.xcassets */,
+				3F7091B524AE09520014A5A3 /* LaunchScreen.storyboard */,
+				3FF1EDB724E463ED0067B65E /* GoogleService-Info.plist */,
+				3F7091B824AE09520014A5A3 /* Info.plist */,
+				3FC79BA024B4A0F200B00412 /* SecondViewController.swift */,
+				3FC79BA224B4A5F800B00412 /* liseViewController.swift */,
+				3F97148824C8F0D9007BF69C /* ImperialViewController.swift */,
+				3F97148624C8F0C8007BF69C /* UCLViewController.swift */,
+				3F97148424C8F0B8007BF69C /* CambridgeViewController.swift */,
+				3F97148224C8F091007BF69C /* OxfordViewController.swift */,
+				3F97148024C8EFDE007BF69C /* WaterlooViewController.swift */,
+				3F97147E24C8EFC3007BF69C /* McGillViewController.swift */,
+				3F97147C24C8EFA5007BF69C /* BritishColumbiaViewController.swift */,
+				3F97147A24C8EECA007BF69C /* TorontoViewController.swift */,
+				3F97147824C8EE5D007BF69C /* TilburgViewController.swift */,
+				3F97147624C8EE3E007BF69C /* StanfordViewController.swift */,
+				3F97147424C8EE26007BF69C /* UChicagoViewController.swift */,
+				3F97147224C8EE08007BF69C /* PrincetonViewController.swift */,
+				3F97147024C8EDF1007BF69C /* YaleViewController.swift */,
+				3F97146C24C8ED8E007BF69C /* HarvardViewController.swift */,
+				3FC26AA224C794BD00593974 /* MITViewController.swift */,
+				3FC26AA024C790DF00593974 /* SocSciViewController.swift */,
+				3F126F0224C6EB1B003016E6 /* NatSciViewController.swift */,
+				3F8057C024C6E6A300FF2457 /* HumanitiesViewController.swift */,
+				3F297DEA24BD06840020475B /* OkullarViewController.swift */,
+				3FC4D54524ED780A0054552E /* ETHViewController.swift */,
+				3FC4D54724ED783C0054552E /* EPFLViewController.swift */,
+				3FC4D54924ED78650054552E /* DelftViewController.swift */,
+				3FC4D54B24ED78790054552E /* MunichViewController.swift */,
+				3FC4D54D24ED78890054552E /* LudwigViewController.swift */,
+				3FC4D54F24ED789B0054552E /* AmsterdamViewController.swift */,
+				3FC4D55124ED78AB0054552E /* ZurichViewController.swift */,
+				3FC4D55324ED78BD0054552E /* KUViewController.swift */,
+				3FC4D55524ED78D40054552E /* EdinburghViewController.swift */,
+				3FC4D55724ED78E40054552E /* ManchesterViewController.swift */,
+				3FC4D55924ED78F40054552E /* KingsCollegeViewController.swift */,
+				3FC4D55B24ED79040054552E /* LSEViewController.swift */,
+				3FC4D55D24ED79150054552E /* WarwickViewController.swift */,
+				3FC4D55F24ED792E0054552E /* AlbertaViewController.swift */,
+				3FC4D56124ED793D0054552E /* MontrealViewController.swift */,
+				3FC4D56324ED794A0054552E /* McMasterViewController.swift */,
+				3F958BA224F31CFF00D48AF5 /* BostonViewController.swift */,
+				3F77314024F3F9D900E38367 /* UCDavisViewController.swift */,
+				3F390B8524F3FCE100C2ED0A /* UCLAViewController.swift */,
+				3F390B8724F3FFA300C2ED0A /* CornellViewController.swift */,
+				3F24EE4824F4027800FAB0B9 /* WashUViewController.swift */,
+				3FD2B36124F676E00001D2E4 /* BerkeleyViewController.swift */,
+				3FD2B36324F676FD0001D2E4 /* ColumbiaViewController.swift */,
+				3FD2B36524F677110001D2E4 /* TexasViewController.swift */,
+				3FD2B36724F677220001D2E4 /* NorthwesternViewController.swift */,
+				3FD2B36924F677330001D2E4 /* SouthernCaliforniaViewController.swift */,
+				3FD2B36B24F677400001D2E4 /* BrownViewController.swift */,
+				3FD2B36D24F6774F0001D2E4 /* PennsylvaniaViewController.swift */,
+				3FD2B36F24F6775C0001D2E4 /* GeorgeTownViewController.swift */,
+				3FD2B37124F6776B0001D2E4 /* JohnsHopkinsViewController.swift */,
+				3FD2B37324F677790001D2E4 /* WisconsinViewController.swift */,
+				3FD2B37524F677860001D2E4 /* DukeViewController.swift */,
+				3FD2B37724F677940001D2E4 /* GeorgiaTechViewController.swift */,
+				3FD2B37924F6779F0001D2E4 /* CaltechViewController.swift */,
+				3FD2B37B24F677AD0001D2E4 /* NYUViewController.swift */,
+				3FD2B37D24F677B90001D2E4 /* MichiganViewController.swift */,
+				3FD2B37F24F677C60001D2E4 /* IllinoisViewController.swift */,
+				3FD2B38124F677D70001D2E4 /* CarnegieMellonViewController.swift */,
+				3FD2B38324F677E40001D2E4 /* PurdueViewController.swift */,
+				3FD2B38524F677F30001D2E4 /* SanDiegoViewController.swift */,
+				3FD2B38724F678010001D2E4 /* PennStateViewController.swift */,
+				3FD2B38924F678190001D2E4 /* WashingtonViewController.swift */,
+				3FD2B38B24F6782B0001D2E4 /* NorthCarolinaViewController.swift */,
+				3FD2B38D24F67A350001D2E4 /* Waterloo2ViewController.swift */,
+				3F9AD29524F7FC1A00A23A12 /* EngineeringViewController.swift */,
+				3F9AD29724F7FC3300A23A12 /* Humanities2ViewController.swift */,
+				3F9AD29924F7FC4700A23A12 /* NatSci2ViewController.swift */,
+				3F9AD29B24F7FC5700A23A12 /* SocSci2ViewController.swift */,
+				3FAB659B24FBB1A400492E27 /* UKEngineeringViewController.swift */,
+				3FAB659D24FBB1BF00492E27 /* UKEngineering2ViewController.swift */,
+				3FAB659F24FBB1CD00492E27 /* UKHumanitiesViewController.swift */,
+				3FAB65A124FBB1DE00492E27 /* UKHumanities2ViewController.swift */,
+				3FAB65A324FBB1EF00492E27 /* UKNatSciViewController.swift */,
+				3FAB65A524FBB1FA00492E27 /* UKNatSci2ViewController.swift */,
+				3FAB65A724FBB20600492E27 /* UKSocSciViewController.swift */,
+				3FAB65A924FBB21100492E27 /* UKSocSci2ViewController.swift */,
+				3F5CB32124FBD70800FEEAC3 /* EUEngineeringViewController.swift */,
+				3F5CB32324FBD72700FEEAC3 /* EUHumanitiesViewController.swift */,
+				3F5CB32524FBD73500FEEAC3 /* EUNatSciViewController.swift */,
+				3F5CB32724FBD74100FEEAC3 /* EUSocSciViewController.swift */,
+				3F1C928424FBE1B000C05484 /* CEngineeringViewController.swift */,
+				3F1C928624FBE1BD00C05484 /* CHumanitiesViewController.swift */,
+				3F1C928824FBE1CA00C05484 /* CNatSciViewController.swift */,
+				3F1C928A24FBE1D800C05484 /* CSocSciViewController.swift */,
+			);
+			path = uniPath;
+			sourceTree = "<group>";
+		};
+		578F94C6186549161043A821 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A030DC0DCBA40B89223CB3CB /* Pods_uniPath.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C8E20E77F00E32010EAB0D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A83A757847A52D7004DE52C /* Pods-uniPath.debug.xcconfig */,
+				134B8EF7504BD6E4C4A324D4 /* Pods-uniPath.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7091A624AE09500014A5A3 /* uniPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7091BB24AE09520014A5A3 /* Build configuration list for PBXNativeTarget "uniPath" */;
+			buildPhases = (
+				FDC4881392D944DC0917213F /* [CP] Check Pods Manifest.lock */,
+				3F7091A324AE09500014A5A3 /* Sources */,
+				3F7091A424AE09500014A5A3 /* Frameworks */,
+				3F7091A524AE09500014A5A3 /* Resources */,
+				B06A40A76284D1A720DAE0D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uniPath;
+			productName = uniPath;
+			productReference = 3F7091A724AE09500014A5A3 /* uniPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F70919F24AE09500014A5A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tutku Doga Nazli";
+				TargetAttributes = {
+					3F7091A624AE09500014A5A3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 3F7091A224AE09500014A5A3 /* Build configuration list for PBXProject "uniPath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F70919E24AE09500014A5A3;
+			productRefGroup = 3F7091A824AE09500014A5A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7091A624AE09500014A5A3 /* uniPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7091A524AE09500014A5A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7091B724AE09520014A5A3 /* LaunchScreen.storyboard in Resources */,
+				3FF1EDB824E463ED0067B65E /* GoogleService-Info.plist in Resources */,
+				3F7091B424AE09520014A5A3 /* Assets.xcassets in Resources */,
+				3F7091B224AE09500014A5A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B06A40A76284D1A720DAE0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uniPath/Pods-uniPath-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-uniPath/Pods-uniPath-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uniPath/Pods-uniPath-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC4881392D944DC0917213F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uniPath-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7091A324AE09500014A5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC4D55424ED78BD0054552E /* KUViewController.swift in Sources */,
+				3FC79BA124B4A0F200B00412 /* SecondViewController.swift in Sources */,
+				3F97148524C8F0B8007BF69C /* CambridgeViewController.swift in Sources */,
+				3FD2B38024F677C60001D2E4 /* IllinoisViewController.swift in Sources */,
+				3FC4D54624ED780A0054552E /* ETHViewController.swift in Sources */,
+				3FD2B38224F677D70001D2E4 /* CarnegieMellonViewController.swift in Sources */,
+				3F5CB32824FBD74100FEEAC3 /* EUSocSciViewController.swift in Sources */,
+				3FD2B38624F677F30001D2E4 /* SanDiegoViewController.swift in Sources */,
+				3F97147724C8EE3E007BF69C /* StanfordViewController.swift in Sources */,
+				3F97147D24C8EFA5007BF69C /* BritishColumbiaViewController.swift in Sources */,
+				3FB1454E24E8159A00C27D3E /* Utilities.swift in Sources */,
+				3F5CB32424FBD72700FEEAC3 /* EUHumanitiesViewController.swift in Sources */,
+				3FC4D55C24ED79040054552E /* LSEViewController.swift in Sources */,
+				3FAB65A424FBB1EF00492E27 /* UKNatSciViewController.swift in Sources */,
+				3FD2B38824F678010001D2E4 /* PennStateViewController.swift in Sources */,
+				3FC4D56024ED792E0054552E /* AlbertaViewController.swift in Sources */,
+				3F5CB32224FBD70800FEEAC3 /* EUEngineeringViewController.swift in Sources */,
+				3FC4D54C24ED78790054552E /* MunichViewController.swift in Sources */,
+				3FC4D54E24ED78890054552E /* LudwigViewController.swift in Sources */,
+				3FD2B37424F677790001D2E4 /* WisconsinViewController.swift in Sources */,
+				3FD2B37824F677940001D2E4 /* GeorgiaTechViewController.swift in Sources */,
+				3F97148124C8EFDE007BF69C /* WaterlooViewController.swift in Sources */,
+				3F9AD29824F7FC3300A23A12 /* Humanities2ViewController.swift in Sources */,
+				3FC4D55824ED78E40054552E /* ManchesterViewController.swift in Sources */,
+				3F97147124C8EDF1007BF69C /* YaleViewController.swift in Sources */,
+				3FC4D56224ED793D0054552E /* MontrealViewController.swift in Sources */,
+				3F3B4DB224E7FD4E007D4237 /* loginViewController.swift in Sources */,
+				3F97147324C8EE08007BF69C /* PrincetonViewController.swift in Sources */,
+				3FC4D55A24ED78F40054552E /* KingsCollegeViewController.swift in Sources */,
+				3FC26AA124C790DF00593974 /* SocSciViewController.swift in Sources */,
+				3FAB65AA24FBB21200492E27 /* UKSocSci2ViewController.swift in Sources */,
+				3F97148324C8F091007BF69C /* OxfordViewController.swift in Sources */,
+				3FAB65A824FBB20600492E27 /* UKSocSciViewController.swift in Sources */,
+				3F390B8824F3FFA300C2ED0A /* CornellViewController.swift in Sources */,
+				3FC4D55E24ED79150054552E /* WarwickViewController.swift in Sources */,
+				3F97148924C8F0D9007BF69C /* ImperialViewController.swift in Sources */,
+				3FC4D54824ED783C0054552E /* EPFLViewController.swift in Sources */,
+				3F1C928524FBE1B000C05484 /* CEngineeringViewController.swift in Sources */,
+				3FD2B37224F6776B0001D2E4 /* JohnsHopkinsViewController.swift in Sources */,
+				3F7091AF24AE09500014A5A3 /* ViewController.swift in Sources */,
+				3FAB659E24FBB1BF00492E27 /* UKEngineering2ViewController.swift in Sources */,
+				3FC79BA324B4A5F800B00412 /* liseViewController.swift in Sources */,
+				3F958BA324F31CFF00D48AF5 /* BostonViewController.swift in Sources */,
+				3F7091AB24AE09500014A5A3 /* AppDelegate.swift in Sources */,
+				3F1C928B24FBE1D800C05484 /* CSocSciViewController.swift in Sources */,
+				3FC4D55624ED78D40054552E /* EdinburghViewController.swift in Sources */,
+				3F7091AD24AE09500014A5A3 /* SceneDelegate.swift in Sources */,
+				3F24EE4924F4027800FAB0B9 /* WashUViewController.swift in Sources */,
+				3F297DEB24BD06840020475B /* OkullarViewController.swift in Sources */,
+				3FC4D55024ED789B0054552E /* AmsterdamViewController.swift in Sources */,
+				3F9AD29624F7FC1A00A23A12 /* EngineeringViewController.swift in Sources */,
+				3F97147524C8EE26007BF69C /* UChicagoViewController.swift in Sources */,
+				3F97146D24C8ED8E007BF69C /* HarvardViewController.swift in Sources */,
+				3FD2B36424F676FD0001D2E4 /* ColumbiaViewController.swift in Sources */,
+				3FC4D54A24ED78650054552E /* DelftViewController.swift in Sources */,
+				3FD2B37624F677860001D2E4 /* DukeViewController.swift in Sources */,
+				3F5CB32624FBD73500FEEAC3 /* EUNatSciViewController.swift in Sources */,
+				3FAB65A224FBB1DE00492E27 /* UKHumanities2ViewController.swift in Sources */,
+				3FD2B36C24F677400001D2E4 /* BrownViewController.swift in Sources */,
+				3FD2B38E24F67A350001D2E4 /* Waterloo2ViewController.swift in Sources */,
+				3F126F0324C6EB1B003016E6 /* NatSciViewController.swift in Sources */,
+				3FC4D55224ED78AB0054552E /* ZurichViewController.swift in Sources */,
+				3F77314124F3F9D900E38367 /* UCDavisViewController.swift in Sources */,
+				3FD2B36824F677220001D2E4 /* NorthwesternViewController.swift in Sources */,
+				3FD2B36624F677110001D2E4 /* TexasViewController.swift in Sources */,
+				3F97147B24C8EECA007BF69C /* TorontoViewController.swift in Sources */,
+				3F9AD29A24F7FC4700A23A12 /* NatSci2ViewController.swift in Sources */,
+				3FAB65A624FBB1FA00492E27 /* UKNatSci2ViewController.swift in Sources */,
+				3F1C928724FBE1BD00C05484 /* CHumanitiesViewController.swift in Sources */,
+				3FD2B37E24F677B90001D2E4 /* MichiganViewController.swift in Sources */,
+				3F1C928924FBE1CA00C05484 /* CNatSciViewController.swift in Sources */,
+				3FD2B38424F677E40001D2E4 /* PurdueViewController.swift in Sources */,
+				3FC4D56424ED794A0054552E /* McMasterViewController.swift in Sources */,
+				3FD2B37A24F6779F0001D2E4 /* CaltechViewController.swift in Sources */,
+				3FD2B38C24F6782B0001D2E4 /* NorthCarolinaViewController.swift in Sources */,
+				3FD2B37024F6775C0001D2E4 /* GeorgeTownViewController.swift in Sources */,
+				3FD2B36224F676E00001D2E4 /* BerkeleyViewController.swift in Sources */,
+				3FD2B37C24F677AD0001D2E4 /* NYUViewController.swift in Sources */,
+				3F97147F24C8EFC3007BF69C /* McGillViewController.swift in Sources */,
+				3FAB65A024FBB1CD00492E27 /* UKHumanitiesViewController.swift in Sources */,
+				3FAB659C24FBB1A400492E27 /* UKEngineeringViewController.swift in Sources */,
+				3F8057C124C6E6A300FF2457 /* HumanitiesViewController.swift in Sources */,
+				3F97147924C8EE5D007BF69C /* TilburgViewController.swift in Sources */,
+				3FD2B38A24F678190001D2E4 /* WashingtonViewController.swift in Sources */,
+				3FD2B36A24F677330001D2E4 /* SouthernCaliforniaViewController.swift in Sources */,
+				3FC26AA324C794BD00593974 /* MITViewController.swift in Sources */,
+				3F97148724C8F0C8007BF69C /* UCLViewController.swift in Sources */,
+				3FD2B36E24F6774F0001D2E4 /* PennsylvaniaViewController.swift in Sources */,
+				3F390B8624F3FCE100C2ED0A /* UCLAViewController.swift in Sources */,
+				3F9AD29C24F7FC5700A23A12 /* SocSci2ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F7091B024AE09500014A5A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7091B124AE09500014A5A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7091B524AE09520014A5A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7091B624AE09520014A5A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7091B924AE09520014A5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F7091BA24AE09520014A5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7091BC24AE09520014A5A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A83A757847A52D7004DE52C /* Pods-uniPath.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uniPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExBook.uniPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F7091BD24AE09520014A5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134B8EF7504BD6E4C4A324D4 /* Pods-uniPath.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = uniPath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExBook.uniPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7091A224AE09500014A5A3 /* Build configuration list for PBXProject "uniPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7091B924AE09520014A5A3 /* Debug */,
+				3F7091BA24AE09520014A5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F7091BB24AE09520014A5A3 /* Build configuration list for PBXNativeTarget "uniPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7091BC24AE09520014A5A3 /* Debug */,
+				3F7091BD24AE09520014A5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F70919F24AE09500014A5A3 /* Project object */;
+}
